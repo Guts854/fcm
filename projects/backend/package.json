@@ -1,0 +1,21 @@
+{
+	"name": "backend",
+	"type": "module",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "bun run --hot src/index.ts"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@types/bun": "latest",
+		"config": "workspace:config",
+		"firebase-admin": "^12.7.0",
+		"googleapis": "^144.0.0",
+		"got": "^14.4.3",
+		"hono": "^4.6.7"
+	},
+	"peerDependencies": {
+		"typescript": "^5.6.3"
+	}
+}

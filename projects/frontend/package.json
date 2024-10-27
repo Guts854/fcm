@@ -1,0 +1,27 @@
+{
+	"name": "frontend",
+	"type": "module",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "vite"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@solid-primitives/context": "^0.2.3",
+		"@solid-primitives/promise": "^1.0.17",
+		"@types/bun": "latest",
+		"@vanilla-extract/css": "^1.16.0",
+		"@vanilla-extract/vite-plugin": "^4.0.17",
+		"config": "workspace:config",
+		"firebase": "^11.0.1",
+		"ky": "^1.7.2",
+		"modern-normalize": "^3.0.1",
+		"solid-js": "^1.9.3",
+		"vite": "^5.4.10",
+		"vite-plugin-solid": "^2.10.2"
+	},
+	"peerDependencies": {
+		"typescript": "^5.6.3"
+	}
+}
